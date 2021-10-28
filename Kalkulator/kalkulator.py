@@ -43,6 +43,14 @@ def mnozenie():
 def dzielenie():
     x = float(input("Podaj pierwszą liczbę: "))
     y = float(input("Podaj drugą liczbę: "))
+    if y != 0:
+        print("Twój wynik to: ", x / y)
+    else:
+        print("nie dziel przez 0 !!")
+        jeszcze_raz()
+
+
+
     print("Twój wynik to: ", x / y)
 
 
